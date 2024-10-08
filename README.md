@@ -29,13 +29,13 @@ The CSS Minify and Map NPM package provides a simple way to minify your CSS file
 To install the package, use npm:
 
 ```bash
-npm install css-minify-map
+npm install minify-css-map
 ```
 
 Or use yarn:
 
 ```bash
-yarn add css-minify-map
+yarn add minify-css-map
 ```
 
 ## Usage
@@ -45,7 +45,7 @@ yarn add css-minify-map
 You can use the CSS Minify and Map package programmatically within your Node.js projects.
 
 ```javascript
-import { minifyCssFile } from 'css-minify-map';
+import { minifyCssFile } from 'minify-css-map';
 
 // Minify a specific CSS file
 minifyCssFile('/path/to/styles.css');
@@ -56,7 +56,8 @@ minifyCssFile('/path/to/styles.css');
 The package also provides a command-line interface for quick usage.
 
 ```bash
-npx css-minify-map <target-directory>
+npx minify-css-map <target-directory>
+npx minify-css-map . # Minify all CSS files in the current directory
 ```
 
 This will recursively process all `.css` files in the given directory and create `.min.css` and `.css.map` files.
