@@ -1,5 +1,5 @@
 {
-  "name": "@npm-packages-collection/minify-css-map",
+  "name": "minify-css-map",
   "description": "A simple CSS minifier and source map generator.",
   "author": "Eugene Yevhen Andruszczenko <eugene.andruszczenko@gmail.com>",
   "contributors": [
@@ -10,7 +10,7 @@
     "url": "git+https://github.com/npm-packages-collection/minify-css-map.git"
   },
   "license": "CC-BY-SA-4.0",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "css",
     "minify",
@@ -19,7 +19,7 @@
     "npm-package"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "engines": {
     "node": "20.x",
