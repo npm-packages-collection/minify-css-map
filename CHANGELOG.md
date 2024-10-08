@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.0.5
+
+Changes in this version:
+
+* build: 0.0.4
+
 ### 0.0.4
 
 Changes in this version:
