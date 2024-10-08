@@ -1,0 +1,49 @@
+{
+  "name": "@npm-packages-collection/minify-css-map",
+  "description": "A simple CSS minifier and source map generator.",
+  "author": "Eugene Yevhen Andruszczenko <eugene.andruszczenko@gmail.com>",
+  "contributors": [
+    "32teeth <eugene.andruszczenko@gmail.com> (https://github.com/32teeth)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm-packages-collection/minify-css-map.git"
+  },
+  "license": "CC-BY-SA-4.0",
+  "version": "0.0.2",
+  "keywords": [
+    "css",
+    "minify",
+    "map",
+    "minification",
+    "npm-package"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
+  "type": "module",
+  "bin": {
+    "minify-css-map": "bin/minify-css-map.mjs"
+  },
+  "bugs": {
+    "url": "https://github.com/npm-packages-collection/minify-css-map/issues"
+  },
+  "scripts": {
+    "publish:npm": "npm publish --registry https://registry.npmjs.org/",
+    "publish:github": "npm publish --registry https://npm.pkg.github.com/",
+    "publish": "npm run publish:npm && npm run publish:github",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^9.2.2"
+  },
+  "homepage": "https://github.com/npm-packages-collection/minify-css-map#readme",
+  "directories": {
+    "test": "test"
+  }
+}
